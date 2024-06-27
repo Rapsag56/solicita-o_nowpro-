@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="52ba88e147070210089e64f2e16d4395" sys_domain="global" table="x_744286_solicita_munic_pios" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uf</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 00:15:31</sys_created_on>
+            <sys_id>6f1bc46547070210089e64f2e16d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_744286_solicita_munic_pios" sys_domain="global" view="Default view">52ba88e147070210089e64f2e16d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 00:15:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>regiao</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 00:15:31</sys_created_on>
+            <sys_id>ef1bc46547070210089e64f2e16d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_744286_solicita_munic_pios" sys_domain="global" view="Default view">52ba88e147070210089e64f2e16d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 00:15:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sintaxe</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 00:15:31</sys_created_on>
+            <sys_id>3f1bc46547070210089e64f2e16d43c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_744286_solicita_munic_pios" sys_domain="global" view="Default view">52ba88e147070210089e64f2e16d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 00:15:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantidade_de_municipios</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 00:15:32</sys_created_on>
+            <sys_id>771bc46547070210089e64f2e16d43ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_744286_solicita_munic_pios" sys_domain="global" view="Default view">52ba88e147070210089e64f2e16d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 00:15:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estado</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 00:15:32</sys_created_on>
+            <sys_id>ff1bc46547070210089e64f2e16d43d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_744286_solicita_munic_pios" sys_domain="global" view="Default view">52ba88e147070210089e64f2e16d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 00:15:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ibge</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 00:15:32</sys_created_on>
+            <sys_id>bb1bc46547070210089e64f2e16d43dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_744286_solicita_munic_pios" sys_domain="global" view="Default view">52ba88e147070210089e64f2e16d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 00:15:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_744286_solicita_munic_pios</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 00:13:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52ba88e147070210089e64f2e16d4395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_744286_solicita_munic_pios</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Solicitação" source="x_744286_solicita">741e779147c30210089e64f2e16d4319</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitação">741e779147c30210089e64f2e16d4319</sys_scope>
+            <sys_update_name>sys_ui_section_52ba88e147070210089e64f2e16d4395</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 00:13:47</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="438ac82547070210089e64f2e16d43ab" label="Municípios" max_length="40" name="x_744286_solicita_munic_pios" type="collection">
+        <element label="Estado" max_length="255" name="estado" type="string_full_utf8"/>
+        <element label="IBGE" max_length="255" name="ibge" type="string_full_utf8"/>
+        <element label="Quantidade de Municipios" max_length="255" name="quantidade_de_municipios" type="string_full_utf8"/>
+        <element label="Região" max_length="255" name="regiao" type="string_full_utf8"/>
+        <element label="Sintaxe" max_length="255" name="sintaxe" type="string_full_utf8"/>
+        <element label="UF" max_length="255" name="uf" type="string_full_utf8"/>
+        <index name="index">
+            <element name="uf"/>
+            <element name="ibge"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Solicitação">d6febb1147c30210089e64f2e16d43d9</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_744286_solicita_solicitacao">stateIN3,4,7^EQ<item display_value="3,4,7" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="3,4,7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_744286_solicita_solicitacao</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_744286_solicita.solicita_o_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-26 23:34:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2961086947c30210089e64f2e16d43fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Aberto</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitação" source="x_744286_solicita">741e779147c30210089e64f2e16d4319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação">741e779147c30210089e64f2e16d4319</sys_scope>
+        <sys_update_name>sys_app_module_2961086947c30210089e64f2e16d43fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-26 23:35:03</sys_updated_on>
+        <timeline_page/>
+        <title>Aberto</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="af8e739547c30210089e64f2e16d4368" extends="task" label="Solicitação" max_length="40" name="x_744286_solicita_solicitacao" type="collection">
+        <element label="Campo inteiro" max_length="40" name="u_campo_interio" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Código de resolução" max_length="40" name="u_codigo_resolucao" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Fechado com sucesso" sequence="0" value="fechado com sucesso"/>
+                <element inactive_on_update="false" label="Fechado com Problema" sequence="1" value="fechado com problema"/>
+                <element inactive_on_update="false" label="Fechado sem resolução" sequence="2" value="fechado sem resolução"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Descrição" max_length="500" name="u_descricao" type="string"/>
+        <element label="Due Date" max_length="40" name="u_due_date" type="due_date"/>
+        <element attributes="encode_utf8=false" label="Incident" max_length="32" name="u_incident" reference="incident" type="reference"/>
+        <element attributes="encode_utf8=false" label="Problema" max_length="32" name="u_problema" reference="problem" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="New String (Full UTF-8)" max_length="255" name="u_string_full_utf8_7" type="string_full_utf8"/>
+    </element>
+</database>
