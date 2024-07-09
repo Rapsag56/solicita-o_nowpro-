@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	
+	c.sendNewclique = function(){
+	alert('teste');	
+//$rootScope.$broadcast('nowpro_nao_clique.newMessage', 'Teste');
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container{
+  padding: 2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 100%;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>nowpro-nao-clique-botao</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>NowPro não clique no botão</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-04 00:30:19</sys_created_on>
+        <sys_id>62815c3747830210089e64f2e16d437e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>NowPro não clique no botão</sys_name>
+        <sys_package display_value="Solicitação" source="x_744286_solicita">741e779147c30210089e64f2e16d4319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação">741e779147c30210089e64f2e16d4319</sys_scope>
+        <sys_update_name>sp_widget_62815c3747830210089e64f2e16d437e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-04 00:51:25</sys_updated_on>
+        <template><![CDATA[<div class="container">
+<button ng-click="sendNewclique()"></button>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+
+spUtil.recordWatch($scope, "change_request", "active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe", function(name){
+c.server.update();
+});
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container{
+	padding: 2rem 0;
+  width: 100%;
+}
+
+ul{
+  padding:0;
+  list-style:none;
+
+}
+
+p{
+
+}
+
+li{
+
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>nowpro-list-change</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>NowPro+ List Change</name>
+        <option_schema>[{"name":"title","section":"Presentation","default_value":"simple-list","label":"Title","type":"string"},{"name":"limit","section":"Data","default_value":"5","label":"Limit","type":"string"},{"name":"query","section":"Presentation","default_value":"active=true","label":"Query","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+data.changeFields = [];
+	
+var grChange = new GlideRecord('change_request');
+grChange.addEncodedQuery(options.query);
+grChange.setLimit(options.limit);
+grChange.query();
+	
+	
+while (grChange.next()) {
+	var obj ={
+		
+	 number: grChange.getDisplayValue('number'),
+   priority: grChange.getDisplayValue('priority'),
+   short_description:  grChange.getValue('short_description'),
+   impact: grChange.getDisplayValue('impact'),
+	 type: grChange.getDisplayValue('type'),
+
+	
+	}
+   data.changeFields.push(obj);
+}
+
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-04 00:09:49</sys_created_on>
+        <sys_id>9adc0c7347830210089e64f2e16d43e4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>NowPro+ List Change</sys_name>
+        <sys_package display_value="Solicitação" source="x_744286_solicita">741e779147c30210089e64f2e16d4319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação">741e779147c30210089e64f2e16d4319</sys_scope>
+        <sys_update_name>sp_widget_9adc0c7347830210089e64f2e16d43e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-04 00:26:37</sys_updated_on>
+        <template><![CDATA[<div class="container">
+<h4>
+  {{options.title}}
+  </h4>
+  <ul>
+    <li ng-repeat='change in data.changeFields'>
+    <p>
+      {{change.number}} - {{change.short_description}}
+      </p>
+    <p>
+      {{change.priority}} - {{change.impact}} - {{change.type}}
+      </p>
+    </li>
+  </ul>
+</div>]]></template>
+    </sp_widget>
+</record_update>
